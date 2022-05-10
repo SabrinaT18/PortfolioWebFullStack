@@ -1,11 +1,12 @@
-<div class="row">
-    <div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
+<div class="skills">
+    
+  <ul *ngFor="let aptitudes of aptitudesList">    
+ <h4> {{aptitudes.name}} </h4>
+  <circle-progress
+  [percent]="aptitudes.progress"
+  [radius]="70"
+  [titleFontSize]="'2 em'"
+  [showSubtitle]="false"
   [outerStrokeWidth]="8"
   [innerStrokeWidth]="5"
   [outerStrokeColor]="'#340856'"
@@ -13,120 +14,6 @@
   [animation]="true"
   [animationDuration]="500"
 ></circle-progress>
-</div>
+</ul>
+</div> 
 
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <circle-progress
-[percent]="85"
-  [radius]="75"
-  [titleFontSize]="'4 em'"
-  [subtitle]="'Photoshop'"
-  [subtitleFontSize]="'8 em'"
-  [outerStrokeWidth]="8"
-  [innerStrokeWidth]="5"
-  [outerStrokeColor]="'#340856'"
-  [innerStrokeColor]="'#815c97'"
-  [animation]="true"
-  [animationDuration]="500"
-></circle-progress>
-</div>
-
-
-
-</div>

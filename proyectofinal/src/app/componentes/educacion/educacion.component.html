@@ -9,68 +9,22 @@
        </div>  
        
        <div class="col-lg-11">
-        <ul>
-        <li>    
-          <h5> educacion 1 </h5> <h5> (años) </h5>
-        </li>
-             <p id="text-acercade">  blaaaaaaa  
-               <!---   EDITAR TEXTO --->  </p>
-           
-         </ul>
-         <ul>
-          <li>    
-            <h5> educacion 2 </h5> <h5> (años) </h5> 
-          </li>
-               <p id="text-acercade">   <!---   EDITAR TEXTO --->  </p>
-             
-           </ul>
-           <ul>
-            <li>    
-              <h5> educacion 3 </h5> <h5> (años) </h5> 
-            </li>
-                 <p id="text-acercade">   <!---   EDITAR TEXTO --->  </p>
-          </ul> 
-
         
+        <li *ngFor="let educacion of educacionList">    
+          <div class="data-container">
+            <h5> {{educacion.title}}  </h5> 
+            <h6> {{educacion.school}}  </h6> 
+            <p> {{educacion.career}}</p>
+            <p><time> {{educacion.start}} </time> -<time> {{educacion.end}} </time>  </p>
+         <div class="logo-image-container">
+<!---   <img class= "logo-image" [src]="educacion.img" 
+  AGREGAR LOGOS EDUCACION EN JSON
+  > --->
 
-         <div>
-           <input id="edit-acercade2" type="text" oninput="myFunction(this.value)" style="display:none">
          </div>
-       </div>
-
-
-       <script>
-        function cambiar_parrafo(){
-             document.getElementById("edit-acercade").style.display="block";
-             let texto = document.getElementById("text-acercade").innerText;
-             console.log(texto);
-        };
-         function myFunction2(valor){
-             document.getElementById("text-acercade").innerText=valor;
-             };
-          function logMessage(message){
-              console.log(message+"<br>");
-             }
-          let textarea=document.getElementById("edit-arcade")
-          textarea.addEventListener('keyup',(e) => {
-             logMessage(`Key "${e.key}" released [event:keyup]`);
-              if (e.key=="Enter"){
-             document.getElementById("edit-acercade").style.display="none"
-              }});
-          
-        function showFile(input) {
-          let file= input.files[0];
-                    alert (`File name: ${file.name}`);
-                    alert(`Lasta modified: ${file.lastModified}`);
-                    
-        let reader= new FileReader();
-               reader.readAstext(file);
-               reader.onload= function () {
-               console.log (reader.result);
-              document.getElementById("text-acercade").innerText=reader.result;
-              } ;
-            reader.onerror= function () {
-            console.log(reader.error);
-            };
-          }
-          </script>
+        </div> 
+            
+        </li>
+      </div>
+    </div>
+             

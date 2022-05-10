@@ -1,0 +1,106 @@
+{
+"name": "Sabrina Tatiana Santoro",
+"backImage": "https://fondosmil.com/fondo/8516.jpg",
+"perfilImage": "assets/foto perfil.jpg",
+"position": "Docente",
+"company": {
+    "name":"editar",
+    "img": "editar",
+    "url": "#"
+},
+"school": {
+    "name": "UNSAM (Universidad de San Martín)",
+    "img": "#",
+    "url": "#"
+},
+"ubication": "Buenos Aires (Argentina)",
+"about": "editar",
+
+"experience": [{
+"position": "edit",
+"company": "edit",
+"start": "2012",
+"end": "2020"
+},
+
+{ 
+"position": "edit",
+"company": "edit",
+"start": "2012",
+"end": "2020"
+},
+
+{
+"position": "edit",
+"company": "edit",
+"start": "2012",
+"end": "2020"
+}
+],
+
+"education": [{
+    "school": "UNSAM",
+    "title": "Lic. en com audiovisual",
+    "score": "9",
+    "start": "2015",
+    "end": "2018"
+    },
+    { "school":"Sagrado Corazón",
+        "title": "Bachiller",
+        "score": "9",
+        "start": "2006",
+        "end": "2008"
+    },
+    { "school":"Sagrado Corazón",
+        "title": "Bachiller",
+        "score": "9",
+        "start": "2006",
+        "end": "2008"
+            } ,
+            
+ { "school":"Sagrado Corazón",
+        "title": "Bachiller",
+        "score": "9",
+        "start": "2006",
+        "end": "2008"
+    }
+ ],
+
+"aptitudes": [{
+    "name": "Resolución de problemas",
+    "progress":50
+},
+{
+ "name": "Edición de video",
+"progress":80
+},
+{
+ "name": "Photoshop",
+"progress":95
+},
+{
+  "name": "Resolución de problemas",
+"progress":75
+},    
+{
+    "name": "Resolución de problemas",
+"progress":75
+}, 
+{   "name": "Resolución de problemas",
+"progress":75
+},   
+{ "name": "Resolución de problemas",
+"progress":75
+},   
+{ "name": "Resolución de problemas",
+"progress":75
+}
+
+],
+
+"proyectos": [{
+    "name":"editar"
+
+}
+]
+}
