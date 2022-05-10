@@ -99,8 +99,12 @@
 ],
 
 "proyectos": [{
-    "name":"editar"
+    "name": "Mi portfolio Web",
+  "year":2022
+},
+{ "name": "edit",
+"year":2000
+ }
 
-}
 ]
 }

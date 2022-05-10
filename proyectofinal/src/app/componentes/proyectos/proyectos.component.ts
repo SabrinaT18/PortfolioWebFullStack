@@ -7,13 +7,13 @@ import { PrimerServicioService } from 'src/app/servicios/primer-servicio.service
   styleUrls: ['./proyectos.component.css']
 })
 export class ProyectosComponent implements OnInit {
- miPorfolio: any;
+ proyectosList: any;
   constructor(private primerServicio:PrimerServicioService) { }
 
   ngOnInit(): void {
     this.primerServicio.obtenerDatos().subscribe(data =>{
       console.log(data);
-     this.miPorfolio=data;
+     this.proyectosList=data.proyectos;
     });
   }
 
