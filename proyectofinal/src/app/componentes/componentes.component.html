@@ -1,0 +1,19 @@
+<div class="skills">
+    
+  <ul *ngFor="let aptitudes of aptitudesList">    
+ <h4> {{aptitudes.name}} </h4>
+  <circle-progress
+  [percent]="aptitudes.progress"
+  [radius]="70"
+  [titleFontSize]="'2 em'"
+  [showSubtitle]="false"
+  [outerStrokeWidth]="8"
+  [innerStrokeWidth]="5"
+  [outerStrokeColor]="'#340856'"
+  [innerStrokeColor]="'#815c97'"
+  [animation]="true"
+  [animationDuration]="500"
+></circle-progress>
+</ul>
+</div> 
+
