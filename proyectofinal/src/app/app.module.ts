@@ -30,7 +30,7 @@ import { PrimerServicioService } from './servicios/primer-servicio.service';
     ProyectosComponent,
     SkillsComponent,
     IniciarSesionComponent,
-    PortfolioComponent
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,

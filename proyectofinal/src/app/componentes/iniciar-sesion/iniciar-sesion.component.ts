@@ -17,12 +17,7 @@ export class IniciarSesionComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]],
       password: ['',[Validators.required, Validators.minLength(8)]],
       deviceInfo: this.formBuilder.group({
-      /*
-      deviceId: [],
-      deviceType [],
-      notificationToken: [] 
-      */  
-    })
+     })
     } 
   )
   } 
