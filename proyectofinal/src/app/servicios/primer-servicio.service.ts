@@ -6,10 +6,14 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PrimerServicioService {
-
+  url:string='src/assets/data/data.Json';
+  
   constructor(private http:HttpClient) { }
 
+
   obtenerDatos (): Observable<any> {
-    return this.http.get('./assets/data/data.Json');
+  return this.http.get<any>(this.url+"persona"); 
   }
+
+
 }
